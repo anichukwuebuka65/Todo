@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Item({ todo, toggleTodo }) {
   return (
-    <div className="flex gap-2">
+    <div className="flex items-center gap-2">
       <input
         onChange={() => toggleTodo(todo.id)}
         className="w-6"

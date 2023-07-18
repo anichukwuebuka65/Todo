@@ -67,7 +67,7 @@ export default function Todo() {
   }
 
   return (
-    <div className="flex justify-center text-[#333]">
+    <div className="flex justify-center text-[#333] p-4">
       <div className="grow max-w-[600px]">
         <h1 className="text-4xl text-center font-[Raleway] font-bold mt-8 mb-14">
           #todo
