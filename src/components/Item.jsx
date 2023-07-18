@@ -3,10 +3,10 @@ import React from "react";
 export default function Item({ todo, toggleTodo }) {
   return (
     <div>
-      <label htmlFor={`status${todo.id}`} className="flex items-stretch gap-2">
+      <label htmlFor={`status${todo.id}`} className="flex items-center gap-2">
         <input
           onChange={() => toggleTodo(todo.id)}
-          className="w-6"
+          className="h-6 w-6"
           type="checkbox"
           name="status"
           id={`status${todo.id}`}
